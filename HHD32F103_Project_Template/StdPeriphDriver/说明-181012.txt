@@ -1,0 +1,69 @@
+/*----------------------
+
+          更新说明
+________________________*/
+
+2017-07-13
+
+1、更新了RTC和watchdog例程。
+2、更新了RTC和watchdog的头文件。
+
+2017-07-31
+1、更新了I2C的中断函数，解决此前发送数据，错位的现象。
+
+2017-08-7
+1、更新了CAN的驱动库，增加了CAN，rx,tx,self的测试例程。
+
+2017-8-28
+1、修改文件“system_HHD32F1xx.c”第227行
+  SystemCoreClock = __IRC_OSC_CLK * ((HHD_SYSCON->SYSPLLCTRL & 0x01F) + 1);
+为SystemCoreClock = __IRC_OSC_CLK * ((HHD_SYSCON->SYSPLLCTRL & 0x01F));
+修改第231行//SystemCoreClock = __SYS_OSC_CLK * ((HHD_SYSCON->SYSPLLCTRL & 0x01F) + 1);
+为：SystemCoreClock = __SYS_OSC_CLK * ((HHD_SYSCON->SYSPLLCTRL & 0x01F));
+
+2、修改了文件“hhd_spi.c“第272行SPI->CR1.bit.CSFL = 1;为SPI->CR1.bit.CSFL = 0;
+第288行SPI->CR1.bit.CSFL = 0; 为SPI->CR1.bit.CSFL = 1;
+
+2017-09-15
+1、修改了文件“hhd_sys.h” 第284行(*IOCON).PC8.all = 0x231; 为	(*IOCON).PA8.all = 0x05;   
+
+2017-11-02
+1、修改文件“hhd_spi.c”中void SPI_SingleWriteRead(HHD32F1_SPI_TypeDef *SPI,uint16_t *data)函数
+注释掉原来内容，增加了：	
+       #if 1 //Modify By wangkui 2017-05-02
+	//wait untile TX FIFO empty
+	while(!SPI->SR.bit.TNF);
+	//Write data to FIFO
+	SPI->DR.bit.DATA=*data;
+	//wait untile TX FIFO empty
+	while(!SPI->SR.bit.RNE);
+	//Read data from FIFO	
+	*data=SPI->DR.bit.DATA;
+	#endif
+
+2018-09-22
+1 修改例程CAN(RxTestNewLib)和CAN(TxTestNewLib).		
+2018-09-27
+1 修改文件hhd_iic.c中line73
+	if (!Mode)
+	{
+		IIC->ADR0.all = SlaveAddress; // Slave address
+		IIC->ADR1.all = 0; // Slave address
+		IIC->ADR2.all = 0; // Slave address
+		IIC->ADR3.all = 0; // Slave address
+		IIC->MASK0.all = 0xff;
+		IIC->MASK1.all = 0xff;
+		IIC->MASK2.all = 0xff;
+		IIC->MASK3.all = 0xff;
+	}
+2018-10-12
+1 修改文件hhd_psi.c中line51
+	SPI->CR0.bit.CPOL=spionlymode1;
+	SPI->CR0.bit.CPHA=spionlymode>>;
+  为
+	SPI->CR0.bit.CPOL=spionlymode1;
+	SPI->CR0.bit.CPHA=spionlymode>>;
+2 修改同上文件中函数：
+void SPI_Open(HHD32F1_SPI_TypeDef *SPI,uint8_t framemode, uint8_t bitwidth, uint8_t master, uint8_t spionlymode)
+为：
+void SPI_Open(HHD32F1_SPI_TypeDef *SPI,uint8_t framemode, uint8_t bitwidth, uint8_t master, uint8_t spionlymode, uint32_t freq)

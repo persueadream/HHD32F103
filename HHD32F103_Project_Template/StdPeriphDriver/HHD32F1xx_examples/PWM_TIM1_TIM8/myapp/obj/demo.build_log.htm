@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\xinnova\XN11E\LIB_1016\Demo-PWM\demo.uvproj
+Project File Date:  10/16/2015
+
+<h2>Output:</h2>
+Rebuild target 'Run In Flash'
+compiling core_cm0.c...
+compiling system_XN11Exxx.c...
+assembling startup_XN11Exxx.s...
+compiling xn_pwm.c...
+compiling xn_sys.c...
+compiling main.c...
+linking...
+Program Size: Code=3464 RO-data=224 RW-data=8 ZI-data=864  
+FromELF: creating hex file...
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+identifier "XN_PWM" is undefined
+                                        (*XN_PWM).VAL0.all = ((*XN_PWM).CMOD.all*dutyval)/100;
+..\common\Drivers\source\xn_pwm.c(173): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).CTRL.bit.LDOK = 1;
+..\common\Drivers\source\xn_pwm.c(190): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).DTIM0.all = 20*rdtimeticks;
+..\common\Drivers\source\xn_pwm.c(208): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).DTIM1.all = 20*rdtimeticks;
+..\common\Drivers\source\xn_pwm.c(230): error:  #20: identifier "XN_PWM" is undefined
+                        (*XN_PWM).FCTRL.bit.FMODE0 = cleartype;
+..\common\Drivers\source\xn_pwm.c(260): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).FLTACK.bit.FTACK0 = 1;
+..\common\Drivers\source\xn_pwm.c(280): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).CTRL.bit.PWMEN = 1;
+..\common\Drivers\source\xn_pwm.c(321): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).CTRL.bit.PWMEN = 0;
+..\common\Drivers\source\xn_pwm.c(361): error:  #20: identifier "XN_PWM" is undefined
+        (*XN_PWM).CTRL.bit.PWMRIE = 1;
+..\common\Drivers\source\xn_pwm.c(387): error:  #20: identifier "XN_PWM" is undefined
+                                        (*XN_PWM).CTRL.bit.CH0OUTEN = 1;
+..\common\Drivers\source\xn_pwm.c: 0 warnings, 12 errors
+compiling main.c...
+".\myapp\obj\demo.axf" - 12 Error(s), 0 Warning(s).
+Target not created

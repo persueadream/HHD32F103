@@ -1,0 +1,41 @@
+
+T12B8 000:383 SEGGER J-Link V4.62 Log File (0001ms, 0250ms total)
+T12B8 000:383 DLL Compiled: Jan 25 2013 15:19:47 (0001ms, 0250ms total)
+T12B8 000:383 Logging started @ 2017-08-14 13:09 (0001ms, 0250ms total)
+T12B8 000:384 JLINK_SetWarnOutHandler(...) (0000ms, 0250ms total)
+T12B8 000:384 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N: 20080643
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0022ms, 0272ms total)
+T12B8 000:406 JLINK_SetErrorOutHandler(...) (0000ms, 0272ms total)
+T12B8 000:406 JLINK_ExecCommand("ProjectFile = "F:\MCU Debug\32F103Debug\A2\HHD32F103_Project-2017-07-31\Library\HHD32F1xx_examples\LED\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0273ms total)
+T12B8 000:407 JLINK_ExecCommand("Device = Cortex-M3", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "CORTEX-M3" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0000ms, 0273ms total)
+T12B8 000:407 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0273ms total)
+T12B8 000:407 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0273ms total)
+T12B8 000:407 JLINK_SetSpeed(2000) (0000ms, 0273ms total)
+T12B8 000:407 JLINK_GetHardwareVersion()  returns 0x13880 (0001ms, 0274ms total)
+T12B8 000:408 JLINK_GetDLLVersion()  returns 46200 (0000ms, 0274ms total)
+T12B8 000:408 JLINK_GetFirmwareString(...) (0000ms, 0274ms total)
+T12B8 000:408 JLINK_GetDLLVersion()  returns 46200 (0000ms, 0274ms total)
+T12B8 000:408 JLINK_GetCompileDateTime() (0000ms, 0274ms total)
+T12B8 000:408 JLINK_GetFirmwareString(...) (0000ms, 0274ms total)
+T12B8 000:408 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0274ms total)
+T12B8 000:408 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0274ms total)
+T12B8 000:408 JLINK_Reset() >0x2F8 JTAG>TotalIRLen = 4, IRPrint = 0x01 >0x30 JTAG> >0x210 JTAG> >0x78 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x30 JTAG> >0x78 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>
+ >0x78 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x78 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>Found Cortex-M3 r2p0, Little endian. >0x48 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x30 JTAG> >0x48 JTAG> >0x40 JTAG> >0x78 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG>
+ >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>TPIU fitted. >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>ETM fitted. >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>FPUnit: 6 code (BP) slots and 2 literal slots >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG>
+ >0x30 JTAG> >0x48 JTAG> >0x40 JTAG> >0x78 JTAG> >0x78 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x78 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x78 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG>
+ >0x48 JTAG> >0x40 JTAG>Found Cortex-M3 r2p0, Little endian. >0x48 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x30 JTAG> >0x48 JTAG> >0x40 JTAG> >0x78 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>TPIU fitted. >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>ETM fitted. >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG>
+ >0x40 JTAG> >0x48 JTAG> >0x40 JTAG>FPUnit: 6 code (BP) slots and 2 literal slots >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x30 JTAG> >0x48 JTAG> >0x40 JTAG> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running
+ -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) >0xB8 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x48 JTAG> >0x40 JTAG> -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE0001028) -- CPU_WriteMem(4 bytes @ 0xE0001038) -- CPU_WriteMem(4 bytes @ 0xE0001048)
+ -- CPU_WriteMem(4 bytes @ 0xE0001058) -- CPU_WriteMem(4 bytes @ 0xE0002000) (0200ms, 0474ms total)
+T12B8 000:608 JLINK_GetIdData(...) ScanLen=4 NumDevices=1 aId[0]=0x4BA00477 aIrRead[0]=0 aScanLen[0]=0 aScanRead[0]=0 (0000ms, 0474ms total)
+T12B8 000:608 JLINK_JTAG_GetDeviceID(DeviceIndex = 0)  returns 0x4BA00477 (0000ms, 0474ms total)
+T12B8 000:608 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 0)  returns 0x00 (0000ms, 0474ms total)
+T12B8 000:611 JLINK_GetFirmwareString(...) (0000ms, 0474ms total)
+T12B8 002:226 JLINK_Close() >0x78 JTAG> >0x08 JTAG> (0014ms, 0488ms total)
+T12B8 002:240 JLINK_Close() (0000ms, 0488ms total)
+T12B8 002:241 JLINK_Close() (0000ms, 0488ms total)

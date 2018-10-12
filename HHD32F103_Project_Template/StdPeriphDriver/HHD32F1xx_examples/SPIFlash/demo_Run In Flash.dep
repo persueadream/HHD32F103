@@ -1,0 +1,39 @@
+Dependencies for Project 'demo', Target 'Run In Flash': (DO NOT MODIFY !)
+F (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.c)(0x54C60FC2)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o ".\myapp\obj\core_cm3.o" --omf_browse ".\myapp\obj\core_cm3.crf" --depend ".\myapp\obj\core_cm3.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.c)(0x567B5DFC)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o ".\myapp\obj\system_g32f1xx.o" --omf_browse ".\myapp\obj\system_g32f1xx.crf" --depend ".\myapp\obj\system_g32f1xx.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x567BBB12)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+F (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\Startup\rvds\startup_G32F1xx_s.s)(0x567BBBCE)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include --list ".\myapp\lst\startup_G32F1xx_s.lst" --xref -o ".\myapp\obj\startup_G32F1xx_s.o" --depend ".\myapp\obj\startup_G32F1xx_s.d")
+F (..\..\G32F1xx_library\Drivers\source\gt_spi.c)(0x5667C700)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o ".\myapp\obj\gt_spi.o" --omf_browse ".\myapp\obj\gt_spi.crf" --depend ".\myapp\obj\gt_spi.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x567BBB12)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x567B5C06)
+I (..\..\G32F1xx_library\Drivers\include\gt_spi.h)(0x5667CD5C)
+F (..\..\G32F1xx_library\Drivers\source\gt_sys.c)(0x567B610A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o ".\myapp\obj\gt_sys.o" --omf_browse ".\myapp\obj\gt_sys.crf" --depend ".\myapp\obj\gt_sys.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x567BBB12)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (..\..\G32F1xx_library\Drivers\include\gt_timer.h)(0x566420E2)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x567B5C06)
+F (.\myapp\src\main.c)(0x5667CE1E)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o ".\myapp\obj\main.o" --omf_browse ".\myapp\obj\main.crf" --depend ".\myapp\obj\main.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x567BBB12)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (.\myapp\inc\gt_spiflash.h)(0x5667C750)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x567B5C06)
+I (..\..\G32F1xx_library\Drivers\include\gt_spi.h)(0x5667CD5C)
+F (.\myapp\src\gt_spiflash.c)(0x5667C968)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -o ".\myapp\obj\gt_spiflash.o" --omf_browse ".\myapp\obj\gt_spiflash.crf" --depend ".\myapp\obj\gt_spiflash.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x567BBB12)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (.\myapp\inc\gt_spiflash.h)(0x5667C750)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x567B5C06)
+I (..\..\G32F1xx_library\Drivers\include\gt_spi.h)(0x5667CD5C)

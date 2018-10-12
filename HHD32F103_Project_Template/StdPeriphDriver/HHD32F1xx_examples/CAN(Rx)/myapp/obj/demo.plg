@@ -1,0 +1,764 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\demo.uvproj
+Project File Date:  08/01/2017
+
+<h2>Output:</h2>
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4016 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4016 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: Wrong AHB ID (15:3). Expected 0x04770001 (Mask 0x0FFFFFCF), Found 0x003E616D
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.338V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4000 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: Wrong AHB ID (15:3). Expected 0x04770001 (Mask 0x0FFFFFCF), Found 0x003FB55B
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.345V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4000 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: SWD-DP error: Could not write Ctrl/Stat register.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.338V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4000 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: SWD-DP error: Could not write Ctrl/Stat register.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.338V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4016 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: SWD-DP error: Could not write Ctrl/Stat register.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.345V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4016 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: SWD-DP error: Could not write Ctrl/Stat register.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.345V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4016 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\hhd32f103_Library_release20170731\\Library\\HHD32F1xx_examples\\CAN(Rx)\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: SYSRESETREQ has confused core. Trying to reconnect and use VECTRESET.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+***JLink Error: SWD-DP error: Could not write Ctrl/Stat register.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.345V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+Application running ...
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4016 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4012 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_sys.c...
+compiling hhd_can.c...
+compiling USART_user.c...
+compiling hhd_uart.c...
+compiling system_user.c...
+compiling main.c...
+linking...
+Program Size: Code=4012 RO-data=340 RW-data=20 ZI-data=1036  
+".\myapp\obj\demo.axf" - 0 Error(s), 0 Warning(s).
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\hhd32f103_Library_release20170731\Library\HHD32F1xx_examples\CAN(Rx)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Dec  6 2011 18:57:44
+Hardware: V8.00
+S/N : 959985457 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.

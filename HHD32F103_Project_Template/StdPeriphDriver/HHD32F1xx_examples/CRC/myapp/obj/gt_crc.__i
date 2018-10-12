@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-o ".\myapp\obj\gt_crc.o" --omf_browse ".\myapp\obj\gt_crc.crf" --depend ".\myapp\obj\gt_crc.d" "..\..\G32F1xx_library\Drivers\source\gt_crc.c"

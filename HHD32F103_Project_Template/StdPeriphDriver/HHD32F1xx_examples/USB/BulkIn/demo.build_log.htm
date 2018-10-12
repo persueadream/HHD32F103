@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+G:\ÅË¾º\panjingwork\cortex-m3\musbfsfc\usb_prj\demo.uvproj
+Project File Date:  06/11/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling endpoint0.c...
+musbfsfc.h(111): warning:  #1295-D: Deprecated declaration USBReset - give arg types
+  void USBReset ();
+musbfsfc.h(112): warning:  #1295-D: Deprecated declaration InitialiseDesc - give arg types
+  void InitialiseDesc ();
+endpoint0.c(43): warning:  #1295-D: Deprecated declaration ConfigureIfs - give arg types
+  int ConfigureIfs ();
+endpoint0.c(122): warning:  #550-D: variable "byType" was set but never used
+  BYTE  byType;
+endpoint0.c: 4 warnings, 0 errors
+linking...
+.\obj\demo.sct(7): error: L6236E: No section matches selector - no section to be FIRST/LAST.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\obj\demo.axf" - 1 Error(s), 4 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
+-D: Deprecated declaration ConfigureIfs - give arg types
+  int ConfigureIfs ();
+endpoint0.c(122): warning:  #550-D: variable "byType" was set but never used
+  BYTE  byType;
+endpoint0.c(421): error:  #65: expected a ";"
+      by = (BYTE)(pep->wMaxPacketSize+7)>>3);
+endpoint0.c: 4 warnings, 1 error
+compiling fifo.c...
+musbfsfc.h(111): warning:  #1295-D: Deprecated declaration USBReset - give arg types
+  void USBReset ();
+musbfsfc.h(112): warning:  #1295-D: Deprecated declaration InitialiseDesc - give arg types
+  void InitialiseDesc ();
+fifo.c: 2 warnings, 0 errors
+compiling musbfsfc.c...
+musbfsfc.h(111): warning:  #1295-D: Deprecated declaration USBReset - give arg types
+  void USBReset ();
+musbfsfc.h(112): warning:  #1295-D: Deprecated declaration InitialiseDesc - give arg types
+  void InitialiseDesc ();
+musbfsfc.c: 2 warnings, 0 errors
+compiling reset.c...
+musbfsfc.h(111): warning:  #1295-D: Deprecated declaration USBReset - give arg types
+  void USBReset ();
+musbfsfc.h(112): warning:  #1295-D: Deprecated declaration InitialiseDesc - give arg types
+  void InitialiseDesc ();
+reset.c: 2 warnings, 0 errors
+".\obj\demo.axf" - 1 Error(s), 14 Warning(s).
+Target not created

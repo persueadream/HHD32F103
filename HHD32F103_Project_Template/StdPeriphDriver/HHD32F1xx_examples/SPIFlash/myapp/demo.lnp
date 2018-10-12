@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\myapp\core_cm3.o" ".\myapp\system_hhd32f1xx.o" ".\myapp\startup_hhd32f1xx_s.o" ".\myapp\hhd_sys.o" ".\myapp\hhd_spi.o" ".\myapp\main.o" ".\myapp\hhd_spiflash.o" --strict --scatter ".\myapp\demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\myapp\lst\demo.map" -o ".\myapp\demo.axf"

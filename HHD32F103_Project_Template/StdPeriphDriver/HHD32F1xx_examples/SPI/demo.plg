@@ -1,0 +1,32 @@
+Build target 'Run In RAM'
+compiling core_cm0.c...
+assembling startup_XN12SLxxx.s...
+compiling system_XN12SLxxx.c...
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(342): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(343): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(344): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(345): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(346): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(347): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(348): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(353): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(354): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(355): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(356): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(357): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(358): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(359): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(367): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(368): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(369): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(370): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(371): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(372): warning:  #174-D: expression has no effect
+Common\Core\CM0\DeviceSupport\XN12SL\system_XN12SLxxx.c(373): warning:  #174-D: expression has no effect
+compiling xn_uart.c...
+compiling main.c...
+myapp\src\main.c(42): warning:  #223-D: function "UART0Init" declared implicitly
+myapp\src\main.c(43): warning:  #223-D: function "UART0Send" declared implicitly
+linking...
+Program Size: Code=700 RO-data=224 RW-data=8 ZI-data=928  
+".\myapp\demo.axf" - 0 Error(s), 23 Warning(s).

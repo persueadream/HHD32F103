@@ -1,0 +1,150 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\Library\HHD32F1xx_examples\I2C(master_test)2\demo.uvproj
+Project File Date:  07/08/2017
+
+<h2>Output:</h2>
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_iic.c...
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(403): warning:  #177-D: variable "i" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(440): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(476): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(1240): warning:  #177-D: variable "i" was declared but never referenced
+compiling hhd_sys.c...
+compiling main.c...
+myapp\src\main.c(43): error:  #136: union "IIC_CONSET_REG" has no field "BIT"
+myapp\src\main.c(44): error:  #136: union "IIC_CONSET_REG" has no field "BIT"
+Target not created
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_iic.c...
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(403): warning:  #177-D: variable "i" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(440): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(476): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(1240): warning:  #177-D: variable "i" was declared but never referenced
+compiling hhd_sys.c...
+compiling main.c...
+myapp\src\main.c(43): error:  #136: union "IIC_CONSET_REG" has no field "BIT"
+myapp\src\main.c(44): error:  #136: union "IIC_CONSET_REG" has no field "BIT"
+Target not created
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_iic.c...
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(403): warning:  #177-D: variable "i" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(440): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(476): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(1240): warning:  #177-D: variable "i" was declared but never referenced
+compiling hhd_sys.c...
+compiling main.c...
+linking...
+Program Size: Code=4020 RO-data=340 RW-data=28 ZI-data=1724  
+FromELF: creating hex file...
+".\myapp\obj\demo.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\Library\\HHD32F1xx_examples\\I2C(master_test)2\\myapp\\obj\\demo.AXF" 
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\Library\\HHD32F1xx_examples\\I2C(master_test)2\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\Library\HHD32F1xx_examples\I2C(master_test)2\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 3000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Run In Flash'
+compiling core_cm3.c...
+compiling system_HHD32F1xx.c...
+assembling startup_HHD32F1xx_s.s...
+compiling hhd_iic.c...
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(403): warning:  #177-D: variable "i" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(440): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(476): warning:  #177-D: variable "temp" was declared but never referenced
+..\..\HHD32F1xx_library\Drivers\source\hhd_iic.c(1240): warning:  #177-D: variable "i" was declared but never referenced
+compiling hhd_sys.c...
+compiling main.c...
+linking...
+Program Size: Code=3992 RO-data=340 RW-data=28 ZI-data=1724  
+FromELF: creating hex file...
+".\myapp\obj\demo.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\汪魁工作档案\\工作目录\\设计资料\\研制类产品\\MCU\\32F103\\3 软件\\DeBug\\hhd32f103_Library_release20170702\\Library\\HHD32F1xx_examples\\I2C(master_test)2\\myapp\\obj\\demo.AXF" 
+Set JLink Project File to "E:\汪魁工作档案\工作目录\设计资料\研制类产品\MCU\32F103\3 软件\DeBug\hhd32f103_Library_release20170702\Library\HHD32F1xx_examples\I2C(master_test)2\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 304427281 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 4, IRPrint = 0x01
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: Cortex-M3
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 3000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

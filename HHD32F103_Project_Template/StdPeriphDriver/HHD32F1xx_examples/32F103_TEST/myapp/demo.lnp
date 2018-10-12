@@ -1,0 +1,4 @@
+--cpu Cortex-M0 ".\myapp\core_cm0.o" ".\myapp\startup_xn12slxxx.o" ".\myapp\system_xn12slxxx.o" ".\myapp\xn_uart.o" ".\myapp\main.o" --strict --scatter ".\myapp\demo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\myapp\lst\demo.map" -o ".\myapp\demo.axf"

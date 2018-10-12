@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\myapp\obj\demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\myapp\obj\core_cm3.o"'
+### List of Objects: adding '".\myapp\obj\system_g32f1xx.o"'
+### List of Objects: adding '".\myapp\obj\startup_g32f1xx_s.o"'
+### List of Objects: adding '".\myapp\obj\gt_spi.o"'
+### List of Objects: adding '".\myapp\obj\gt_sys.o"'
+### List of Objects: adding '".\myapp\obj\main.o"'
+### List of Objects: adding '".\myapp\obj\gt_spiflash.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\myapp\obj\core_cm3.o" ".\myapp\obj\system_g32f1xx.o" ".\myapp\obj\startup_g32f1xx_s.o" ".\myapp\obj\gt_spi.o" ".\myapp\obj\gt_sys.o" ".\myapp\obj\main.o" ".\myapp\obj\gt_spiflash.o" 
+--strict --scatter ".\myapp\obj\demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\myapp\lst\demo.map" -o .\myapp\obj\demo.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\myapp\obj\demo.axf'
+### ADS-LD Command File: '.\myapp\obj\demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\myapp\obj\demo.lnp', Handle=0x00000390
+### Writing '.lnp' file
+### ADS-LD Command file '.\myapp\obj\demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

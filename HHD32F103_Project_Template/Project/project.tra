@@ -1,0 +1,46 @@
+*** Creating Trace Output File 'project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"adc_user.o"'
+### List of Objects: adding '"gpio_user.o"'
+### List of Objects: adding '"hhd_spiflash.o"'
+### List of Objects: adding '"i2c_user.o"'
+### List of Objects: adding '"spi_user.o"'
+### List of Objects: adding '"system_user.o"'
+### List of Objects: adding '"timer_user.o"'
+### List of Objects: adding '"usart_user.o"'
+### List of Objects: adding '"hhd_adc.o"'
+### List of Objects: adding '"hhd_can.o"'
+### List of Objects: adding '"hhd_crc.o"'
+### List of Objects: adding '"hhd_dac.o"'
+### List of Objects: adding '"hhd_dma.o"'
+### List of Objects: adding '"hhd_gpio.o"'
+### List of Objects: adding '"hhd_iap.o"'
+### List of Objects: adding '"hhd_iic.o"'
+### List of Objects: adding '"hhd_pwm.o"'
+### List of Objects: adding '"hhd_rtc.o"'
+### List of Objects: adding '"hhd_spi.o"'
+### List of Objects: adding '"hhd_sys.o"'
+### List of Objects: adding '"hhd_timer.o"'
+### List of Objects: adding '"hhd_uart.o"'
+### List of Objects: adding '"hhd_uart7816.o"'
+### List of Objects: adding '"hhd_wdt.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_hhd32f1xx.o"'
+### List of Objects: adding '".\startup_hhd32f1xx_s.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "adc_user.o" "gpio_user.o" "hhd_spiflash.o" "i2c_user.o" "spi_user.o" "system_user.o" "timer_user.o" "usart_user.o" "hhd_adc.o" "hhd_can.o" "hhd_crc.o" "hhd_dac.o" "hhd_dma.o" "hhd_gpio.o" "hhd_iap.o" "hhd_iic.o" "hhd_pwm.o" "hhd_rtc.o" "hhd_spi.o" "hhd_sys.o" "hhd_timer.o" "hhd_uart.o" "hhd_uart7816.o" "hhd_wdt.o" "core_cm3.o" "system_hhd32f1xx.o" ".\startup_hhd32f1xx_s.o" --library_type=microlib --strict --scatter "project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\List\project.map" -o "project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'project.axf'
+### ADS-LD Command File: 'project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'project.lnp', Handle=0x00000674
+### Writing '.lnp' file
+### ADS-LD Command file 'project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

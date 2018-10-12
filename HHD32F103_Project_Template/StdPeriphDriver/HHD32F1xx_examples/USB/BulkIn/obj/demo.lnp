@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\desc.o" ".\obj\endpoint.o" ".\obj\endpoint0.o" ".\obj\fifo.o" ".\obj\musbfsfc.o" ".\obj\reset.o" ".\obj\core_cm3.o" ".\obj\system_hhd32f1xx.o" ".\obj\startup_hhd32f1xx_s.o" ".\obj\hhd_sys.o" ".\obj\main.o" --strict --scatter ".\obj\demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\obj\demo.map" -o ".\obj\demo.axf"

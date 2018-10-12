@@ -1,0 +1,1 @@
+-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\common\Drivers\include -I..\common\Core\CM0\DeviceSupport\G32F0xx -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -DENABLE_PWM -o ".\myapp\obj\gt_timer.o" --omf_browse ".\myapp\obj\gt_timer.crf" --depend ".\myapp\obj\gt_timer.d" "..\common\Drivers\source\gt_timer.c"

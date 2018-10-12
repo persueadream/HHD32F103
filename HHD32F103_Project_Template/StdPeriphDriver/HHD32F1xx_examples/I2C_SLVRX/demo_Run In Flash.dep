@@ -1,0 +1,30 @@
+Dependencies for Project 'demo', Target 'Run In Flash': (DO NOT MODIFY !)
+F (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.c)(0x54C60FC2)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DENABLE_IIC -o ".\myapp\obj\core_cm3.o" --omf_browse ".\myapp\obj\core_cm3.crf" --depend ".\myapp\obj\core_cm3.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.c)(0x571A2598)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DENABLE_IIC -o ".\myapp\obj\system_g32f1xx.o" --omf_browse ".\myapp\obj\system_g32f1xx.crf" --depend ".\myapp\obj\system_g32f1xx.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x56B189F4)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+F (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\Startup\rvds\startup_G32F1xx_s.s)(0x567BC520)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include --list ".\myapp\lst\startup_G32F1xx_s.lst" --xref -o ".\myapp\obj\startup_G32F1xx_s.o" --depend ".\myapp\obj\startup_G32F1xx_s.d")
+F (..\..\G32F1xx_library\Drivers\source\gt_iic.c)(0x57198ED8)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DENABLE_IIC -o ".\myapp\obj\gt_iic.o" --omf_browse ".\myapp\obj\gt_iic.crf" --depend ".\myapp\obj\gt_iic.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x56B189F4)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x56B191CA)
+I (..\..\G32F1xx_library\Drivers\include\gt_iic.h)(0x571A23F6)
+F (..\..\G32F1xx_library\Drivers\source\gt_sys.c)(0x56B18AF6)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DENABLE_IIC -o ".\myapp\obj\gt_sys.o" --omf_browse ".\myapp\obj\gt_sys.crf" --depend ".\myapp\obj\gt_sys.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x56B189F4)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (..\..\G32F1xx_library\Drivers\include\gt_timer.h)(0x56EAA268)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x56B191CA)
+F (.\myapp\src\main.c)(0x571A1E62)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I.\myapp\inc -I..\..\G32F1xx_library\Drivers\include -I..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx -I..\..\G32F1xx_library\Core\CM3\CoreSupport -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DENABLE_IIC -o ".\myapp\obj\main.o" --omf_browse ".\myapp\obj\main.crf" --depend ".\myapp\obj\main.d")
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\g32f1xx.h)(0x56B189F4)
+I (..\..\G32F1xx_library\Core\CM3\CoreSupport\core_cm3.h)(0x566190BC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\..\G32F1xx_library\Core\CM3\DeviceSupport\G32F1xx\system_G32F1xx.h)(0x5677EE88)
+I (..\..\G32F1xx_library\Drivers\include\gt_sys.h)(0x56B191CA)
+I (..\..\G32F1xx_library\Drivers\include\gt_iic.h)(0x571A23F6)
